@@ -40,3 +40,5 @@ Finally, I've added the function `deepFlattenArray()` to a gimmicky module `Util
 ### Tools:
 
 This tidbit was developed in [RunJS](https://runjs.dev/) and subsequent testing was added using VScode for github :)
+
+Testing with Jest
