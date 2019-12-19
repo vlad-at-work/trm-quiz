@@ -2,9 +2,12 @@
 
 ## Install & Run Tests:
 
-`git clone https://github.com/vlad-at-work/theorem-quiz.git`
-`cd on-theorem-quiz`
+`git clone https://github.com/vlad-at-work/trm-quiz.git`
+
+`cd trm-quiz`
+
 `npm i`
+
 `npm run test`
 
 
