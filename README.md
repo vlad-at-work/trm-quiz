@@ -24,11 +24,17 @@ With this particular solution, we'll step through the array item-by-item and fla
 Given: `const initialArray = [1, [2, [3]], [4, 5, [6, [10, 1]]], 7, [8, 9], []];`
 
 `[ 1, 2, [ 3 ], [ 4, 5, [ 6, [ 10, 1 ] ] ], 7, [ 8, 9 ], [] ]`
+
 `...`
+
 `...`
+
 `[ 1, 2, 3, 4, 5, [ 6, [ 10, 1 ] ], 7, [ 8, 9 ], [] ]`
+
 `...`
+
 `...`
+
 `[ 1, 2, 3, 4, 5, 6, 10, 1, 7, 8, 9 ]`
 
 `.splice()` makes a copy of the array in the process of splicing, which is not ideal in terms of space complexity. If the input array is large enough, the (O)n copy may be surprising. If this is an issue, a recursive approach is best.
