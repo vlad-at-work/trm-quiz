@@ -17,7 +17,7 @@ Array flattening is an interesting question with two approaches I can think of: 
 
 Alternatively, the naiive/native `array.flat(Infinity)` would accomplish the task but runtime complexity may easily become murky.
 
-With this particular solution, we'll step through the array item-by-item and flatten it as we go until we have a flat array and `.splice()` is no longer applicable to items returning true for `.isArray()`.
+With this particular solution, we'll step through the array item-by-item and flatten it as we go until we have a flat array and `.splice()` is no longer applicable to items returning true for `.isArray()` (as `.isArray()` will no longer be true for any member of the array)
 
 #### Example Output For Solution:
 
