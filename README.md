@@ -41,7 +41,7 @@ Given: `const initialArray = [1, [2, [3]], [4, 5, [6, [10, 1]]], 7, [8, 9], []];
 
 `Array.isArray()` is available on IE9+ so this seems like a reasonable solution which will work on the vast majority of modern browsers.
 
-Finally, I've added the function `deepFlattenArray()` to a gimmicky module `Utils` as we need to use it for Jest as welll as remain available for import anywhere else in the app. `Utils` seemed as appropriate name as any.
+Finally, I've added the function `deepFlattenArray()` to a gimmicky module `Utils` as we need to use it for Jest as well as remain available for import anywhere else in the app. `Utils` seemed as appropriate name as any.
 
 ### Tools:
 
