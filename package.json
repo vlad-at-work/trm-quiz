@@ -1,0 +1,17 @@
+{
+  "name": "TheoremArrayQuiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
